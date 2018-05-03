@@ -7,13 +7,17 @@
 	
 }
 
+body{
+	background-color: #ffc04c;
+}
+
 #background{
 	
 	background-image: url("../imgs/startsida_bild.jpg");
 	min-height: 700px;
 	max-width: 100%;
 	text-align: center;
-	
+
 }
 
 #background h1{
@@ -33,14 +37,6 @@
 	
 }
 
-aside{
-	
-	width: 100%;
-	height: 350px;
-	background-color: #98fb98;
-	
-}
-
 #background2{
 	
 	background-image: url("../imgs/startsida_bild2.jpg");
@@ -48,6 +44,7 @@ aside{
 	min-height: 700px;
 	width: 100%;
 	margin: auto;
+	margin-bottom: 50px;
 	text-align: center;
 	
 }
@@ -106,13 +103,48 @@ section svg{
 	
 }
 
+#asides{
+	
+	display: flex;
+	flex-direction: coulmn;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	
+}
 
+aside{
+	
+	width: 800px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
 
+aside img{
+	
+	
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	
+}
 
+#asides aside h2{
+	'
+	font-family: 'Arvo', serif; /* Skriven två gånger för den ville inte fungera om man endast skrev en? */
+	font-family: 'Arvo', serif;
+	margin: auto;
+	width: 500px;
+	
+}
 
+.aside1{
+	
+}
 
-
-
-
-
+.aside2{
+	
+}
 

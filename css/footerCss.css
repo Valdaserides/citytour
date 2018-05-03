@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+nav{
+	
+	
+	width: 100%;
+	
+	
+}
+
+footer{
+	
+	background-color: grey;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.footer-nav{
+	
+	text-align: center;
+	margin-top: 20px;
+	
+	padding-bottom: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	width: 150px;
+	height: 100px;
+	border-right: 1px solid;
+	
+}
+
+.footer-nav li{
+	
+	padding: 7px;
+	
+}
+
+.footer-nav li a{
+	
+	color: #fff;
+	font-family: 'Pt sans';
+	text-decoration: none;
+	
+}
+
+#socialMedia{
+	
+	text-align: center;
+	margin-top: 20px;
+	
+	padding-bottom: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	width: 150px;
+	height: 100px;
+	
+}
+
+#socialMedia li{
+	
+	padding: 7px;
+	
+}
+
+#socialMedia li a{
+	
+	color: #fff;
+	font-family: 'Pt sans';
+	text-decoration: none;	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
