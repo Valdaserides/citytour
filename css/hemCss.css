@@ -56,20 +56,55 @@ aside{
 	
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+	height: 300px;
+	background-color: #ffc04c;
 	
 }
 
+section{
+	
+	width: 450px;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	font-family: 'Arvo', serif;
+	
+}
 
+section h2{
+	
+	font-size: 3em;
+	padding-bottom: 20px;
+	
+	
+}
 
+section p{
+	
+	font-size: 1.5em;
+	
+}
 
+section svg{
+	
+	width: 100px;
+	height: 100px;
+	
+}
 
+.eiffel-tower{
+	
+	height: 100px;
+	width: 100px;
+	
+}
 
-
-
-
-
-
-
+.information-tecken{
+	
+	height: 100px;
+	width: 100px;
+	
+}
 
 
 
