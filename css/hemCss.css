@@ -15,7 +15,7 @@ body{
 	
 	background-image: url("../imgs/startsida_bild.jpg");
 	min-height: 700px;
-	max-width: 100%;
+	width: 100%;
 	text-align: center;
 
 }
@@ -63,7 +63,7 @@ section{
 	
 	width: 450px;
 	text-align: center;
-	margin: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
 	font-family: 'Arvo', serif;
 	
 }
@@ -124,7 +124,6 @@ aside{
 
 aside img{
 	
-	
 	width: 500px;
 	height: 300px;
 	margin: auto;
@@ -147,4 +146,152 @@ aside img{
 .aside2{
 	
 }
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1450px){
+
+	#sections{
+		
+		height: auto;
+		
+	}
+
+	section{
+		
+		margin: 10px 10px 60px 10px;
+
+	}
+
+
+	section h2{
+		
+		font-size: 2.2em;
+		padding-bottom: 10px;
+		
+	}
+
+	section p{
+		
+		font-size: 1em;
+		
+	}
+
+	section svg, .eiffel-tower, .infomation-tecken{
+		
+		width: 70px;
+		height: 70px;
+		
+	}
+
+
+}
+
+@media only screen and (max-width: 1130px) {
+	
+	#asides{
+		
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	
+	aside{
+		
+	
+		width: 400px;
+		margin: auto;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-bottom: 1px solid;
+		
+	}
+	
+	aside img{
+	
+		width: 400px;
+		height: 300px;
+		margin: auto;
+	
+	}
+	
+	#asides aside h2{
+		
+		margin: 0;
+		width: 75%;
+		margin-left: 50px;
+		text-align: center;
+		font-size: 1.1em;
+		
+	}
+	
+	.no-border-aside{
+		border: none;
+		padding-bottom: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 1031px) {
+	
+	section h2{
+		font-size: 1.5em;
+	}
+	
+	section{
+		width: 25%;
+	}
+	
+}
+
+@media only screen and (max-width: 680px) {
+	
+	#background{
+		min-height: 400px;
+	}
+	
+	#background2{
+		
+	}
+	
+	#sections{
+		height: 15%;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	section{
+	
+		width: 75%;
+		border-bottom: 1px solid;
+		padding-bottom: 50px;
+	
+	}
+	
+	.no-border{
+		border: none;
+		padding: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

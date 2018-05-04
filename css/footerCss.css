@@ -60,15 +60,11 @@ footer{
 	
 	text-align: center;
 	margin-top: 20px;
-	
 	padding-bottom: 80px;
 	padding-left: 80px;
 	padding-right: 80px;
-	
-	list-style-type: none;
 	display: flex;
 	flex-direction: column;
-	list-style-type: none;
 	width: 150px;
 	height: 100px;
 	
@@ -77,6 +73,7 @@ footer{
 #socialMedia li{
 	
 	padding: 7px;
+	list-style-type: none;
 	
 }
 
@@ -88,7 +85,29 @@ footer{
 	
 }
 
-
+@media only screen and (max-width: 540px) {
+	
+	footer{
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+	
+	#socialMedia, .footer-nav{
+		border: none;
+		margin: auto;
+	}
+	
+	#socialMedia{
+		padding-top: 10px;
+	}
+	
+	.footer-nav{
+		border-bottom: 1px solid;
+		border-width: thin;
+	}
+	
+}
 
 
 
