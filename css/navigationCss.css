@@ -88,6 +88,11 @@ label{
 	
 	/* Burger-nav */ 
 	
+	header{
+		position: fixed;
+		width: 100%;
+	}
+	
 	label{
 		display: block;
 		cursor: pointer;
