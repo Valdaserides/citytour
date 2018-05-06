@@ -251,7 +251,8 @@ aside img{
 	}
 	
 	#background2{
-		
+		background-image: url("../imgs/lappstift.jpg");
+		min-height: 200px;
 	}
 	
 	#sections{
@@ -259,10 +260,11 @@ aside img{
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: center;
+		
 	}
 
 	section{
-	
+		border-radius: 20px;
 		width: 75%;
 		border-bottom: 1px solid;
 		padding-bottom: 50px;

@@ -7,11 +7,7 @@
 }
 
 nav{
-	
-	
-	width: 100%;
-	
-	
+	width: 100%;	
 }
 
 footer{
@@ -95,7 +91,11 @@ footer p{
 	footer{
 		flex-direction: column;
 		width: 100%;
-		height: auto;
+		height: 500px;
+	}
+	
+	footer p{
+		
 	}
 	
 	#socialMedia, .footer-nav{
@@ -104,7 +104,7 @@ footer p{
 	}
 	
 	#socialMedia{
-		padding-top: 10px;
+		margin-top: -50px;
 	}
 	
 	.footer-nav{
