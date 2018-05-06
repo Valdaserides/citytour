@@ -24,6 +24,11 @@ footer{
 	
 }
 
+footer p{
+	position: absolute;
+	margin-top: 230px;
+}
+
 .footer-nav{
 	
 	text-align: center;
