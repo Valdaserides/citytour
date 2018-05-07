@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	
+	width: 100%;
+	
+}
+
+body{
+	background-color: #ffc04c;
+}
+
+
+/* Verical Nav for attractions */
+	
+#background-image{
+	
+	background: url("../imgs/startsida_bild.jpg") no-repeat center center;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	min-height: 700px;
+	width: 100%;
+	
+	text-align: center;
+	
+}
+
+#background-image h1{
+	
+	padding: 30px;
+	background-color: rgba(0,0,0,.6);
+	font-size: 3em;
+	color: #fff;
+	font-family: 'Arvo', serif;
+	
+}
+
+.main-content{
+	
+	border: 1px solid;
+	width: 1100px;
+	height: 1000px;
+	margin: auto;
+	
+}
+
+.vertical-nav{
+	
+	padding-right: 100px;
+	padding-top: 50px;
+	width: 200px;
+	
+}
+
+.vertical-nav a{
+	
+	border-bottom: 1px solid;
+	border-width: thin;
+	background-color: #8aacb8;
+	color: #000;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family: 'Arvo', serif;
+	font-weight: 800;
+	
+}
+
+.vertical-nav a:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

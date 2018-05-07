@@ -28,15 +28,17 @@ body{
 
 #background h1{
 	
-	padding-top: 80px;
 	font-size: 4em;
 	color: #fff;
 	font-family: 'Arvo', serif;
+	
+	background-color: rgba(0,0,0,.5);
 	
 }
 
 #background h3{
 	
+	background-color: rgba(0,0,0,.5);
 	color: #fff;
 	font-family: 'Arvo', serif;
 	font-size: 2em;
