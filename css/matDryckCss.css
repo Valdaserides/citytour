@@ -86,18 +86,17 @@ body{
 	flex-direction: row;
 	
 	width: 1100px;
-	height: 2000px;
+	height: auto;
 	margin: auto;
-	
+	margin-bottom: 70px;
 	
 }
 
 #asides{
 	
-	
-	margin-right: 30px;
+	margin-left: -100px;
 	width: 800px;
-	height: 2000px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -105,13 +104,17 @@ body{
 aside{
 	width: 700px;
 	height: 400px;
-	border: 1px solid;
+	border-bottom: 1px solid;
 	margin-left: 62px;
 	margin-bottom: 30px;
 	padding: 20px;
+	text-align: center;
 }
 
 aside img{
+	
+	width: 400px;
+	height: 300px;
 	
 }
 
@@ -120,8 +123,14 @@ aside h2{
 	font-size: 2em;
 }
 
+aside p{
+	font-family: 'Arvo', serif;
+	font-size: 1em;
+}
+
 .no-margin{
 	margin-bottom: 0;
+	
 }
 
 
