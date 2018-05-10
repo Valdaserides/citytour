@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,8 +15,7 @@ body{
 	background-color: #ffc04c;
 }
 
-
-/* Verical Nav for attractions */
+/* Verical Nav for restaurants */
 	
 #background-image{
 	
@@ -34,20 +35,12 @@ body{
 
 #background-image h1{
 	
+	font-family: 'Arvo', serif;
 	padding: 30px;
 	background-color: rgba(0,0,0,.6);
 	font-size: 3em;
 	color: #fff;
 	font-family: 'Arvo', serif;
-	
-}
-
-.main-content{
-	
-	border: 1px solid;
-	width: 1100px;
-	height: 1000px;
-	margin: auto;
 	
 }
 
@@ -77,11 +70,59 @@ body{
 	color: #fff;
 }
 
+.navigation{
+	position: absolute;
+	font-size: .8em;
+	margin-top: 13px;
+	color: grey;
+	font-family: 'Arvo', serif;
+}
 
+/* Main content */
 
+.main-content{
+	
+	display: flex;
+	flex-direction: row;
+	
+	width: 1100px;
+	height: 2000px;
+	margin: auto;
+	
+	
+}
 
+#asides{
+	
+	
+	margin-right: 30px;
+	width: 800px;
+	height: 2000px;
+	display: flex;
+	flex-direction: column;
+}
 
+aside{
+	width: 700px;
+	height: 400px;
+	border: 1px solid;
+	margin-left: 62px;
+	margin-bottom: 30px;
+	padding: 20px;
+}
 
+aside img{
+	
+}
+
+aside h2{
+	font-family: 'Arvo', serif;
+	font-size: 2em;
+}
+
+.no-margin{
+	margin-bottom: 0;
+}
 
 
 
