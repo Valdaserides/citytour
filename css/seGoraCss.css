@@ -36,8 +36,12 @@ main{
 }
 
 .main-content{
-	width: 1100px;
+	width: 1020px;
+	height: auto;
 	margin: auto;
+	
+	display: flex;
+	flex-direction: column;
 }
 
 #background-image{
@@ -66,18 +70,10 @@ main{
 	
 }
 
-#attractions{
-	
-	display: flex;
-	flex-direction: column;
-	
-}
-
 aside{
 	
-	width: 100%;
+	width: auto;
 	height: 600px;
-	background-color: rgba(0,0,0,.2);
 	text-align: center;
 	
 }
@@ -109,7 +105,7 @@ aside p{
 /* Responsive Design */
 
 @media only screen and (max-width: 1020px) {
-	
+	/* Navigation */
 	label{
 		display: block;
 		cursor: pointer;
@@ -146,4 +142,69 @@ aside p{
 		
 	}
 	
+	/* Main content */
+	
+	.main-content{
+		width: 100%;
+	}
+	
 }
+
+@media only screen and (max-width: 620px) {
+	
+	#background-image{
+		min-height: 500px
+	}
+	
+	#background-image h1{
+		font-size: 2em;
+	}
+	
+	.main-content{
+
+	}
+	
+	aside{
+		margin-top: -150px;
+	}
+	
+	aside img{
+		
+		width: 400px;
+		height: 300px;
+
+	}
+	
+	aside h1{
+		font-size: 1.2em;
+	}
+	
+	aside p{
+		
+		
+		padding-bottom: 10px;
+		font-size: 1em;
+	}
+	
+	.no-margin{
+		margin-top: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
