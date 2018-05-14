@@ -46,8 +46,7 @@ main{
 	width: 1200px;
 	height: 2000px;
 	margin: auto;
-	
-	border: 1px solid;
+	margin-top: 20px;
 	
 }
 
@@ -59,12 +58,16 @@ main{
 	display: flex;
 	flex-direction: row;
 	
+	border-bottom: 1px solid;
+	
+	padding-bottom: 50px;
+	
 }
 
 #goteborg img{
 	
 	width: 700px;
-	height: 500px;
+	height: 450px;
 	
 }
 
@@ -72,6 +75,8 @@ main{
 	
 	font-family: 'Arvo', serif;
 	font-size: 1.5em;	
+	padding: 10px;
+	padding-top: 0;
 	
 }
 
