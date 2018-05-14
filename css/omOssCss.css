@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#background{
+	
+	background: url("../imgs/startsida_bild.jpg") no-repeat center center;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	min-height: 700px;
+	width: 100%;
+	text-align: center;
+
+}
+
+body{
+	background-color: #ffc04c;
+}
+
+#background h1{
+	
+	font-family: 'Arvo', serif;
+	padding: 30px;
+	background-color: rgba(0,0,0,.6);
+	font-size: 3em;
+	color: #fff;
+	font-family: 'Arvo', serif;
+	
+}
