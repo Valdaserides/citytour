@@ -70,6 +70,8 @@ body{
 	color: #fff;
 }
 
+/* Burger-nav for restaurants */
+
 .nav-label{
 	margin: 0 40px 0 0;
 	font-size: 26px;
@@ -80,6 +82,17 @@ body{
 #toggle2{
 	
 	display: none;
+	
+}
+
+#filter{
+	
+	display: none;
+	position: absolute;
+	margin-left: 55px;
+	margin-top: 25px;
+	font-family: 'Arvo', serif;
+	font-size: 1em;
 	
 }
 
@@ -139,6 +152,7 @@ aside p{
 }
 .no-border{
 	border: none;
+	border-bottom: none;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -192,6 +206,12 @@ aside p{
 		cursor: pointer;
 		width: 26px;
 		margin-left: 20px;
+	}
+	
+	#filter{
+		
+		display: block;
+		
 	}
 	
 	#toggle2:checked + .vertical-nav{
