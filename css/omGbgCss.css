@@ -173,13 +173,31 @@ main{
 @media only screen and (max-width: 1220px){
 	
 	.main-content{
+		
 		width: 100%;
+		
 	}
 	
 	.goteborg{
 		
-		width: 100%;
+		width: 90%;
+		margin: auto;
 		
+	}
+	
+	.goteborg img{
+		
+		width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+		
+	}
+	
+	.goteborg p{
+		position: relative;
+		margin: 0;
+		border-radius: 0;
+		margin: auto;
 	}
 	
 	#sections{
@@ -222,12 +240,55 @@ main{
 	#section section{
 		text-align: center;
 	}
+	
+	.skargard{
+		
+		width: 90%;
+		margin: auto;
+		
+	}
+	
+	.skargard img{
+		
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		margin: auto;
+		padding-top: 20px;
+		
+	}
+	
+	.skargard p{
+		
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		border-radius: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		font-size: 1em;
+		
+	}
 
 }
 
 @media only screen and (max-width: 1020px){
 	
+	#background{
+		
+		min-height: 500px;
+		
+	}
 	
+	#background h1{
+		
+		font-size: 2em;
+		
+	}
 	
 }
 
@@ -249,7 +310,21 @@ main{
 	
 }
 
-
+@media only screen and (max-width: 673px){
+	
+	.goteborg p{
+		
+		font-size: 1em;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		
+	}
+	
+}
 
 
 

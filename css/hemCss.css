@@ -11,6 +11,12 @@ body{
 	background-color: #ffc04c;
 }
 
+main{
+	
+	width: 100%;
+	
+}
+
 #background{
 	
 	background: url("../imgs/startsida_bild.jpg") no-repeat center center;
@@ -222,7 +228,6 @@ aside img{
 	
 	aside{
 		
-	
 		width: 400px;
 		margin: auto;
 		padding-bottom: 20px;
@@ -274,11 +279,6 @@ aside img{
 		min-height: 400px;
 	}
 	
-	#background2{
-		
-		
-	}
-	
 	#sections{
 		height: 15%;
 		flex-direction: column;
@@ -302,7 +302,35 @@ aside img{
 	
 }
 
-
+@media only screen and (max-width: 424px) {
+	
+	#background h1{
+		
+		font-size: 2em;
+		
+	}
+	
+	#asides aside{
+		
+		width: 100%;
+		
+	}
+	
+	#asides aside img{
+		
+		height: auto;
+		width: 100%;
+		
+	}
+	
+	#asides aside p{
+		
+		width: 80%;
+		height: auto;
+		
+	}
+	
+}
 
 
 
