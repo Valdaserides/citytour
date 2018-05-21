@@ -170,15 +170,84 @@ main{
 
 /* Responsive Design */
 
-@media only screen and (max-width: 1020px){
+@media only screen and (max-width: 1220px){
 	
 	.main-content{
 		width: 100%;
 	}
 	
+	.goteborg{
+		
+		width: 100%;
+		
+	}
+	
+	#sections{
+		
+		width: 100%;
+		
+	}
+	
+	#sections section{
+	
+		width: 50%;
+	
+	}
+
+	#sections section img{
+		
+		width: 95%;
+		height: auto;
+		margin: 0;
+		margin-left: 10px;
+		
+	}
+
+	#sections section h1{
+		
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+		font-size: 2.2em;
+		
+	}
+
+	#sections section p{
+		
+		font-size: 1em;
+		padding: 15px;
+		
+	}
+		
+	#section section{
+		text-align: center;
+	}
+
 }
 
+@media only screen and (max-width: 1020px){
+	
+	
+	
+}
 
+@media only screen and (max-width: 780px){
+	
+	#sections{
+		flex-direction: column;
+		margin: auto;
+	}
+	
+	#sections section{
+		width: 100%;
+	}
+	
+	.border-right{
+		border-right: none;
+		border-bottom: 1px solid;
+	}
+	
+}
 
 
 
