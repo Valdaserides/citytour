@@ -224,7 +224,45 @@ aside p{
 	
 }
 
-
+@media only screen and (max-width: 459px) {
+	
+	#background-image h1{
+		font-size: 1.5em;
+	}
+	
+	aside{
+		
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	aside img{
+		
+		width: 90%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		margin-right: 50px;
+		
+	}
+	
+	aside h2{
+		
+		font-size: 1em;
+		
+	}
+	
+	aside p{
+		
+		font-size: .9em;
+		margin: 0;
+		padding: 0;
+		width: 90%;
+		
+	}
+	
+}
 
 
 
