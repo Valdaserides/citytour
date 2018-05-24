@@ -37,8 +37,6 @@ body{
 	
 }
 
-/* Main-content */
-
 main{
 	
 	width: 100%;
@@ -48,7 +46,101 @@ main{
 .main-content{
 	
 	width: 1200px;
-	height: 500px;
+	height: 1500px;
+	margin: auto;
+	
+}
+
+/* Main-content */
+
+.main-content h1{
+	
+	font-size: 3em;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+/* Form */
+
+.form{
+	
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 10px;
+	
+}
+
+input[type=text], textarea{
+	
+	width: 100%;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	resize: verical;
+	
+}
+
+.form-label{
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Arvo', serif;
+	display: block;
+	
+}
+
+textarea{
+	
+	height: 250px;
+	
+}
+
+.25-width{
+	
+	width: 25%;
+	float: left;
+	margin-top: 5px;
+	
+}
+
+.75-width{
+	
+	width: 75%;
+	float: left;
+	margin-top: 5px;
+	
+}
+
+button{
+	
+	background-color: #1E90FF;
+	font-family: 'Arvo', serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: none;
+	margin-left: 25%;
+	margin-top: 30px;
+	width: 50%;
+	cursor: pointer;
+	
+}
+
+button:hover{
+	opacity: .7;
+}
+
+.rad:after{
+	
+	content: '';
+	display: table;
+	clear: both;
 	
 }
 
@@ -62,7 +154,33 @@ main{
 	
 }
 
-
+@media only screen and (max-width: 600px){
+	
+	.25-width, .75-width{
+		
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	.form{
+		
+		border-radius: 0px;
+		
+	}
+	
+	button{
+	
+		width. 100%;
+		
+	}
+	
+	.main-content h1{
+		font-size: 1.5em;
+	}
+	
+}
 
 
 

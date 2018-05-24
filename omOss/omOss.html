@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-9">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Hem </title>
 	<link rel="stylesheet" href="../css/navigationCss.css">
 	<link rel="stylesheet" href="../css/footerCss.css">
 	<link rel="stylesheet" href="../css/omOssCss.css">
+	
 </head>
 <body>
 	
@@ -39,28 +41,115 @@
 	
 		<div id="background">
 		
-			<h1> Om oss </h1>
+			<h1> Läs mer om oss och denna sidan här. Om du har frågar kan du även skicka din fråga här. </h1>
 		
 		</div>
 		
 		<div class="main-content">
 		
+			<h1> Här kan du veta mer om denna hemsidan eller skicka en fråga via formuläret. </h1>
+		
+			<div class="form">
 			
+				<form>
+				
+					<div class="rad">
+					
+						<div class="25-width">
+						
+							<label for="fname" class="form-label">Förnamn</label>
+							
+						</div>
+						<div class="75-width">
+						
+							<input type="text" id="fname" name="firstname" placeholder="Ditt namn...">
+							
+						</div>
+						
+					</div>
+					
+					<div class="rad">
+					
+						<div class="25-width">
+						
+							<label for="lname" class="form-label">Efternamn</label>
+							
+						</div>
+						
+						<div class="75-width">
+						
+							<input type="text" id="lname" name="lastname" placeholder="Ditt efternamn...">
+							
+						</div>
+						
+					</div>
+					
+					<div class="rad">
+					
+						<div class="25-width">
+						
+							<label for="email" class="form-label">Email</label>
+							
+						</div>
+						
+						<div class="75-width">
+						
+							<input type="text" id="email" name="email" placeholder="Skriv din email...">
+							
+						</div>
+						
+					</div>
+
+					<div class="rad">
+					
+						<div class="25-width">
+						
+							<label for="subject" class="form-label">Subject</label>
+							
+						</div>
+						<div class="75-width">
+						
+							<textarea id="subject" name="subject" placeholder="Skriv ditt meddelande..."> </textarea>
+							
+						</div>
+						
+					</div>
+					
+					<div class="rad">
+					
+						<button onclick="myFunction()">Skicka</button>
+						
+					</div>
+					
+				</form>
+				
+			</div>
 		
 		</div>
 	
 	</main>
+	
+		
+	<script>
+	
+	function myFunction(){
+		
+		alert("Skickat!");
+	
+	}
+	
+	</script>
 	
 	<!-- Footer; Quick-nav and Social Medias -->
 	
 	<footer>
 		
 		<ul class="footer-nav">
-			<li><a href="../hem/hemIndex.html">Hem</a></li>
-			<li><a href="../seGora/seGora.html">Se & Göra</a></li>
-			<li><a href="../matDryck/matDryck.html">Mat & Dryck</a></li>
-			<li><a href="../omGbg/omGbg.html">Om Göteborg</a></li>
-			<li><a href="../omOss/omOss.html">Om oss</a></li>
+			<li class="footer-nav-li"><a href="../hem/hemIndex.html">Hem</a></li>
+			<li class="footer-nav-li"><a href="../seGora/seGora.html">Se & Göra</a></li>
+			<li class="footer-nav-li"><a href="../matDryck/matDryck.html">Mat & Dryck</a></li>
+			<li class="footer-nav-li"><a href="../omGbg/omGbg.html">Om Göteborg</a></li>
+			<li class="footer-nav-li"><a href="../omOss/omOss.html">Om oss</a></li>
 		</ul>
 		
 		<div id="socialMedia">

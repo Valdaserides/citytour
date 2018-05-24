@@ -17,6 +17,8 @@ main{
 	
 }
 
+/* Background-image */
+
 #background{
 	
 	background: url("../imgs/startsida_bild.jpg") no-repeat center center;
@@ -68,6 +70,8 @@ main{
 	text-align: center;
 	
 }
+
+/* Orange bar with information */
 
 #sections{
 	
@@ -129,12 +133,15 @@ section a{
 	
 }
 
+/* Featured  restaurants */
+
 #asides{
 	
 	display: flex;
 	flex-direction: coulmn;
 	justify-content: space-around;
 	margin-bottom: 50px;
+	height: auto;
 	
 }
 
@@ -162,14 +169,6 @@ aside img{
 	font-family: 'Arvo', serif;
 	margin: auto;
 	width: 500px;
-	
-}
-
-.aside1{
-	
-}
-
-.aside2{
 	
 }
 
