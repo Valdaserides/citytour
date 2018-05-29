@@ -126,7 +126,13 @@ label{
 	
 }
 
-
+@media only screen and (max-width: 400px) {
+	
+	.nav-menu li a{
+		font-size: 1.2em;
+	}
+	
+}
 
 
 

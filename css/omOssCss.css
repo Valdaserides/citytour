@@ -46,8 +46,9 @@ main{
 .main-content{
 	
 	width: 1200px;
-	height: 1500px;
+	height: auto;
 	margin: auto;
+	padding-bottom: 50px;
 	
 }
 
@@ -68,7 +69,7 @@ main{
 .form{
 	
 	background-color: #f2f2f2;
-	border-radius: 10px;
+	border-radius: 7px;
 	padding: 30px;
 	margin-top: 10px;
 	
@@ -87,7 +88,7 @@ input[type=text], textarea{
 .form-label{
 	
 	padding-top: 10px;
-	padding-left: 10px;
+	
 	padding-right: 10px;
 	font-family: 'Arvo', serif;
 	display: block;
@@ -144,6 +145,10 @@ button:hover{
 	
 }
 
+/* Information */
+
+
+
 @media only screen and (max-width: 1020px){
 	
 	.main-content{
@@ -155,6 +160,16 @@ button:hover{
 }
 
 @media only screen and (max-width: 600px){
+	
+	#background{
+		min-height: 400px;
+	}
+	
+	#background h1{
+		
+		font-size: 2em;
+		
+	}
 	
 	.25-width, .75-width{
 		
@@ -178,6 +193,10 @@ button:hover{
 	
 	.main-content h1{
 		font-size: 1.5em;
+	}
+	
+	.form-label{
+		margin: 0;
 	}
 	
 }
