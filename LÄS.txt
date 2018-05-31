@@ -1,0 +1,1 @@
+Nav-baren på "hemIndex.html" är större än de andra undersidorna.
