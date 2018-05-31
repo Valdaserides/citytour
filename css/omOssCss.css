@@ -147,13 +147,103 @@ button:hover{
 
 /* Information */
 
+#information{
+	
+	width: 100%;
+	height: auto;
+	border-top: 1px solid;
+	margin-top: 50px;
+	padding-top: 50px;
+	
+}
 
+#information p{
+	
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	padding-bottom: 50px;
+	color: grey;
+	
+}
+
+#information section{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	
+}
+
+#information h2{
+	
+	font-family: 'Arvo', serif;
+	
+}
+
+#information section h5{
+	
+	font-family: 'Arvo', serif;
+	font-size: 1em;
+	font-weight: 500;
+	
+	
+}
+
+#information iframe{
+	
+
+	
+}
+
+@media only screen and (max-width: 1220px){
+	
+	#information{
+		
+		width: 100%;
+		
+	}
+	
+	#information section{
+		
+		width: 90%;
+		margin: auto;
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	
+	#information section h5{
+		
+		padding-bottom: 20px;
+		
+	}
+	
+}
 
 @media only screen and (max-width: 1020px){
 	
 	.main-content{
 		
 		width: 100%;
+		
+	}
+	
+}
+
+@media only screen and (max-width: 625px){
+
+	#information section iframe{
+		
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	#information p{
+		
+		font-size: 1.5em;
 		
 	}
 	
@@ -200,7 +290,6 @@ button:hover{
 	}
 	
 }
-
 
 
 
