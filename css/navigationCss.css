@@ -36,8 +36,7 @@ header h1 a{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
-	
+		
 }
 
 .nav-menu li a{
@@ -64,10 +63,12 @@ header h1 a{
 /* Burger nav */
 
 label{
+	
 	margin: 0 40px 0 0;
 	font-size: 26px;
 	line-height: 70px;
 	display: none;
+	
 }
 
 #toggle{
@@ -83,38 +84,50 @@ label{
 	/* Burger-nav */ 
 	
 	label{
+		
 		display: block;
 		cursor: pointer;
 		width: 26px;
 		margin-left: 20px;
+		
 	}
 	
 	.nav-menu{
+		
 		display: none;
 		margin: 0;
 		padding: 0;
 		background-color: #8f8f8f;
 		height: auto;
 		width: 100%;
+		
 	}
 	
 	.nav-menu li{
+		
 		text-align: center;
 		padding: 10px;
 		border-bottom: 1px solid;
 		border-width: thin;
+		
 	}
 	
 	.nav-menu li a{
+		
 		color: white;
+		
 	}
 	
 	.nav-menu li a:hover{
+		
 		color: rgba(0,0,0,.8);
+		
 	}
 	
 	#toggle:checked + .nav-menu{
+		
 		display: block;
+		
 		
 	}
 	
@@ -123,7 +136,9 @@ label{
 @media only screen and (max-width: 400px) {
 	
 	.nav-menu li a{
+		
 		font-size: 1.2em;
+		
 	}
 	
 }

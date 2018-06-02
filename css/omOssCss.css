@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 
 *{
+	
 	margin: 0;
 	padding: 0;
+	
 }
 
 body{
+	
 	background-color: #ffc04c;
+	
 }
 
 /*  */
@@ -19,7 +23,6 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 	min-height: 700px;
 	width: 100%;
 	text-align: center;
@@ -88,7 +91,6 @@ input[type=text], textarea{
 .form-label{
 	
 	padding-top: 10px;
-	
 	padding-right: 10px;
 	font-family: 'Arvo', serif;
 	display: block;
@@ -134,7 +136,9 @@ button{
 }
 
 button:hover{
+	
 	opacity: .7;
+	
 }
 
 .rad:after{
@@ -173,7 +177,6 @@ button:hover{
 	flex-direction: row;
 	justify-content: space-around;
 	
-	
 }
 
 #information h2{
@@ -187,7 +190,6 @@ button:hover{
 	font-family: 'Arvo', serif;
 	font-size: 1em;
 	font-weight: 500;
-	
 	
 }
 
@@ -252,7 +254,9 @@ button:hover{
 @media only screen and (max-width: 600px){
 	
 	#background{
+		
 		min-height: 400px;
+		
 	}
 	
 	#background h1{
@@ -282,11 +286,15 @@ button:hover{
 	}
 	
 	.main-content h1{
+		
 		font-size: 1.5em;
+		
 	}
 	
 	.form-label{
+		
 		margin: 0;
+		
 	}
 	
 }
