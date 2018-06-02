@@ -1,2 +1,2 @@
-# Mitt slutprojekt i webbutveckling 1
+# Mitt slutprojekt i Webbutveckling 1
 ### © Max VO
